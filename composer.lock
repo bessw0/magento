@@ -553,48 +553,6 @@
             "time": "2016-03-08 20:50:51"
         },
         {
-            "name": "magento/framework",
-            "version": "100.1.1",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/framework/magento-framework-100.1.1.0.zip",
-                "reference": null,
-                "shasum": "2531bfc4107b1158acbee26714f8d10b132009d4"
-            },
-            "require": {
-                "ext-curl": "*",
-                "ext-dom": "*",
-                "ext-gd": "*",
-                "ext-hash": "*",
-                "ext-iconv": "*",
-                "ext-mcrypt": "*",
-                "ext-openssl": "*",
-                "ext-simplexml": "*",
-                "ext-spl": "*",
-                "ext-xsl": "*",
-                "lib-libxml": "*",
-                "php": "~5.6.0|7.0.2|~7.0.6",
-                "symfony/process": "~2.1"
-            },
-            "suggest": {
-                "ext-imagick": "Use Image Magick >=3.0.0 as an optional alternative image processing library"
-            },
-            "type": "magento2-library",
-            "autoload": {
-                "psr-4": {
-                    "Magento\\Framework\\": ""
-                },
-                "files": [
-                    "registration.php"
-                ]
-            },
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "N/A"
-        },
-        {
             "name": "magento/language-de_de",
             "version": "100.1.0",
             "dist": {
